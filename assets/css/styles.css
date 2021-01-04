@@ -1,0 +1,53 @@
+.card-borders {
+  border: 1px solid green;
+  border-radius: 9px;
+  width: 99%;
+  height: 90%;
+  padding: 8px;
+}
+
+.card-border-parent > .card-body {
+  padding: 7px;
+}
+
+.card-border-parent {
+  border-radius: 14px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border: 0;
+}
+
+.swiper-slide > .card {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border: 0;
+  border-radius: 15px;
+}
+
+.square {
+  -ms-transform: skew(-12deg);
+  -webkit-transform: skew(-12deg);
+  transform: skew(-12deg);
+  /*transform-origin: bottom left;*/
+  /*width: 50px;*/
+  /*height: 50px;*/
+  /*display: block;*/
+  /*background-color: red;*/
+  /*overflow: hidden;*/
+  border: 14px solid #1eb53a;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.square > p {
+  transform: skew(12deg);
+}
+
+input {
+  border-radius: 13px;
+  border: 0;
+}
+
+.blur {
+  backdrop-filter: blur(15px);
+  /*filter: blur(15px);*/
+}
+
